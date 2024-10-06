@@ -1,21 +1,22 @@
-@media (max-width: 980px) {
+@media screen and (max-width: 980px) {
 /*------------------------------------*\
     #SETTINGS
 \*------------------------------------*/
 
 html {
-    font-size: 3vh;
+    font-size: 3vw;
 }
 
 body {
     background: url(../image/bg-mob.png);
     background-attachment: fixed;
+	padding: 2vw 5vw;
 }
 
 
 section {
-	height: 100vh;
-	margin-bottom: 10vh;
+	height: 50vh;
+	margin-bottom: 20vh;
 }
 
 
@@ -40,7 +41,8 @@ section {
 \*------------------------------------*/
 
 img {
-	height: 100vh;
+	height: auto;
+	width: 80vw;
 }
 
 
@@ -52,7 +54,7 @@ img {
 \*------------------------------------*/
 
 .firstScreen {
-	margin-bottom: 30vh;
+	margin-bottom: 40vh;
 }
 
 
@@ -64,7 +66,7 @@ img {
 .title {
 	z-index: 999;
 	position: absolute;
-	top: 14vh;
+	top: 13vh;
 	background: rgba(0, 0, 0, 0.6);
 	height: auto;
 	border-radius: 0.2em;
@@ -82,14 +84,14 @@ img {
 .main {
 	position: absolute;
 	top: 12vh;
-	left: 21vw;
+	left: 10vw;
 }
 
 
 .start {
 	z-index: 999;
     position: absolute;
-    top: 75vh;
+    top: 65vh;
     right: 0vw;
     text-align: left;
 	background: rgba(0, 0, 0, 0.6);
@@ -101,13 +103,18 @@ img {
 
 
 ul {
-	margin-top: 15vh;
-	margin-left: -3vw;
+	margin-top: 0vh;
+	margin-left: 0;
 }
 
 .ulThird {
-	margin-top: 10vh;
-	margin-left: 0;
+	margin-left: -5vw;
+}
+
+
+.li {
+	width: 35vw;
+	margin-bottom: 2vh;
 }
 
 
@@ -117,34 +124,34 @@ li {
 	background: rgba(0, 0, 0, 0.6);
 	border-radius: 0.5em;
 	height: 3em;
-	width: 40vw;
+	width: 35vw;
 	padding: 0.9em 0;
-	margin-bottom: 7vh;
+	margin-bottom: 1vh;
 }
 
 
 .text-mob-screen-1 {
 	position: absolute;
-	top: 150vh;
+	top: 100vh;
 	left: 0;
 }
 
 
 .text-mob-screen-2 {
 	position: absolute;
-	top: 260vh;
-	right: 7vw;
+	top: 185vh;
+	right: 5vw;
 }
 
 
 .text-mob-screen-3 {
 	position: absolute;
-	top: 370vh;
-	left: 7vw;
+	top: 255vh;
+	left: -5vw;
 }
 
 
 .footerMiddle{
-	padding: 0 15vw;
+	padding: 0 5vw;
 }
 }
