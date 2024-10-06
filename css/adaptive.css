@@ -1,0 +1,140 @@
+@media (min-width: 980px) {
+/*------------------------------------*\
+    #SETTINGS
+\*------------------------------------*/
+
+html {
+    font-size: 2vh;
+}
+
+
+body {
+    background: url(../image/bg-mob.png);
+}
+
+
+section {
+	height: 100vh;
+	margin-bottom: 20vh;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+div {
+	position: relative;
+	box-sizing: border-box;
+}
+
+
+.left {	
+	float: left;
+	margin-right: 7vw;
+}
+.right {	float: right; }
+
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: #000;
+	width: 100%;
+	height: 2.4rem;
+	color: #838383;
+	padding: 0.7rem 0;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+
+
+
+/*------------------------------------*\
+    #BASE
+\*------------------------------------*/
+
+h1 {
+	font-family: "Sacramento", cursive;
+	font-weight: 400;
+	font-style: normal;
+	padding: 0;
+	margin: 0;
+	font-size: 5rem;
+}
+
+
+img {
+	height: 110vh;
+}
+
+a {
+	text-decoration: none;
+	color: #838383;
+}
+
+
+
+/*------------------------------------*\
+    #OBJECTS
+\*------------------------------------*/
+
+.content {
+	text-align: center;
+	padding: 5vh 0;
+}
+
+
+.title {
+	background: rgba(0, 0, 0, 0.4);
+	height: 7em;
+	border-radius: 0.5em;
+	text-align: right;
+	padding: 1em 3em;
+	line-height: 1.5em;
+	margin-bottom: 10vh;
+}
+
+
+ul {
+	margin-top: 15vh;
+	margin-left: -3vw;
+}
+
+.ulThird {
+	margin-top: 10vh;
+	margin-left: 0;
+}
+
+
+li {
+	list-style-type: none;
+	box-sizing: border-box;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 0.5em;
+	height: 3em;
+	width: 21em;
+	padding: 0.9em 0;
+	margin-bottom: 7vh;
+}
+
+.li {
+	width: 17em;
+	margin-bottom: 5vh;
+}
+
+.liRight {
+	margin-left: 3em;
+}
+
+.liLeft {
+	margin-right: 3em;
+}
+
+
+
+.footerMiddle{
+	padding: 0 15vw;
+}
+}
