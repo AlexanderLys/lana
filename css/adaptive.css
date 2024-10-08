@@ -76,11 +76,11 @@ img {
 	top: 8.5rem;
 	background: rgba(0, 0, 0, 0.6);
 	height: auto;
-	width: auto;
+	width: 74vw;
 	border-radius: 0.2em;
 	padding: 0 1em;
 	line-height: 1em;
-	margin: 0 8.1vw;
+	margin: 0 8vw;
 }
 
 
@@ -158,7 +158,7 @@ li {
 
 
 .footerMiddle{
-	padding: 0 0.05rem;
+	padding: 0 0;
 }
 }
 
